@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Periodic Table Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+  <header>
+    <h1>Periodic Table Explorer</h1>
+    <div class="controls">
+      <input id="search" class="search" placeholder="Search name, symbol or atomic number..." />
+      <select id="filter" class="toggle">
+        <option value="all">All categories</option>
+        <option value="alkali">Alkali metals</option>
+        <option value="alkaline">Alkaline earth</option>
+        <option value="transition">Transition metals</option>
+        <option value="post">Post-transition</option>
+        <option value="metalloid">Metalloids</option>
+        <option value="nonmetal">Non-metals</option>
+        <option value="halogen">Halogens</option>
+        <option value="noble">Noble gases</option>
+        <option value="lanth">Lanthanides</option>
+        <option value="actin">Actinides</option>
+      </select>
+      <button id="theme" class="toggle">Toggle Theme</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="legend" style="margin-bottom:12px;">
+      <div class="item"><div class="dot" style="background:#ffd1b3"></div> Alkali</div>
+      <div class="item"><div class="dot" style="background:#ffe59d"></div> Alkaline</div>
+      <div class="item"><div class="dot" style="background:#cfeeff"></div> Transition</div>
+      <div class="item"><div class="dot" style="background:#bff0c7"></div> Post-transition</div>
+      <div class="item"><div class="dot" style="background:#fff7e2"></div> Metalloid</div>
+      <div class="item"><div class="dot" style="background:#ffdede"></div> Nonmetal</div>
+      <div class="item"><div class="dot" style="background:#cfe2ff"></div> Halogen</div>
+      <div class="item"><div class="dot" style="background:#e4e8ff"></div> Noble gas</div>
+    </div>
+    <div class="table" id="table"></div>
+  </main>
+
+  <div id="popup">
+    <div id="card">
+      <h2 id="pName">Name</h2>
+      <div class="meta" id="pSymbolNum">Symbol • #</div>
+      <p id="pMass">Mass: —</p>
+      <p id="pGroup">Group / Period: —</p>
+      <p id="pConfig">Electron config: —</p>
+      <p id="pUses">Uses: —</p>
+      <button id="close">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
