@@ -39,8 +39,8 @@ h1{margin:0;}
 .nonmetal{background:linear-gradient(180deg,#fff6f6,#ffdede);}
 .halogen{background:linear-gradient(180deg,#f0f6ff,#cfe2ff);}
 .noble{background:linear-gradient(180deg,#f8f8ff,#e4e8ff);}
-.lanth{background:linear-gradient(180deg,#fde2ff,#f6c6ff);}
-.actin{background:linear-gradient(180deg,#fbeff1,#f5c7d0);}
+.lanthanide{background:linear-gradient(180deg,#fde2ff,#f6c6ff);}
+.actinide{background:linear-gradient(180deg,#fbeff1,#f5c7d0);}
 
 /* Responsive */
 @media(max-width:900px){.table{grid-template-columns:repeat(9,1fr);}}
