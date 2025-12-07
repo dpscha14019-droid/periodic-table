@@ -34,7 +34,7 @@ h1{margin:0;}
 .alkali{background:linear-gradient(180deg,#ffe9d6,#ffd1b3);}
 .alkaline{background:linear-gradient(180deg,#fff2d9,#ffe59d);}
 .transition{background:linear-gradient(180deg,#e8f7ff,#cfeeff);}
-.post{background:linear-gradient(180deg,#e8ffe9,#bff0c7);}
+.post-transition{background:linear-gradient(180deg,#e8ffe9,#bff0c7);}
 .metalloid{background:linear-gradient(180deg,#fff7e2,#ffe9a8);}
 .nonmetal{background:linear-gradient(180deg,#fff6f6,#ffdede);}
 .halogen{background:linear-gradient(180deg,#f0f6ff,#cfe2ff);}
