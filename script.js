@@ -49,7 +49,6 @@ const elements = [
 {num:48,symbol:"Cd",name:"Cadmium",mass:"112.41",group:12,period:5,category:"transition",config:"[Kr] 4d10 5s2",uses:"Batteries, pigments"},
 {num:49,symbol:"In",name:"Indium",mass:"114.82",group:13,period:5,category:"post-transition",config:"[Kr] 4d10 5s2 5p1",uses:"Electronics, coatings"},
 {num:50,symbol:"Sn",name:"Tin",mass:"118.71",group:14,period:5,category:"post-transition",config:"[Kr] 4d10 5s2 5p2",uses:"Solder, alloys"},
-
 {num:51,symbol:"Sb",name:"Antimony",mass:"121.76",group:15,period:5,category:"metalloid",config:"[Kr] 4d10 5s2 5p3",uses:"Alloys, flame retardants"},
 {num:52,symbol:"Te",name:"Tellurium",mass:"127.60",group:16,period:5,category:"metalloid",config:"[Kr] 4d10 5s2 5p4",uses:"Alloys, semiconductors"},
 {num:53,symbol:"I",name:"Iodine",mass:"126.90",group:17,period:5,category:"halogen",config:"[Kr] 4d10 5s2 5p5",uses:"Disinfectants, medicine"},
